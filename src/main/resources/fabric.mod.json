@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "enchant_me",
+  "version": "${version}",
+  "name": "Enchant Me",
+  "description": "Mod Description",
+  "authors": [
+    "Vehkiya"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Vehkiya/enchant-me",
+    "issues": "https://github.com/Vehkiya/enchant-me",
+    "sources": "https://github.com/Vehkiya/enchant-me"
+  },
+  "license": "The Unlicense",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "com.mod_author.mod_id.ModName"
+      }
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "fabric-language-kotlin": ">=1.7.4+kotlin.1.6.21",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  }
+}
